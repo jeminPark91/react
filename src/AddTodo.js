@@ -6,7 +6,7 @@ class AddTodo extends React.Component{
         super(props);
         this.state = {item : {title : ""}};
         this.add = props.add;
-    }
+    } 
 
     onInputChange = (e) => {
         const thisItem = this.state.item;
